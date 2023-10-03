@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "trilium_task_ics_py"}]
 
 [tool.poetry.dependencies]
-python = ">=3.9"
+python = ">=3.9, <3.12"
 trilium-py = "^0.8.4"
 python-dotenv = "^1.0.0"
 ics = "^0.7.2"

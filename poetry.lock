@@ -183,22 +183,6 @@ files = [
 ]
 
 [[package]]
-name = "icalendar"
-version = "5.0.10"
-description = "iCalendar parser/generator"
-category = "main"
-optional = false
-python-versions = ">=3.7"
-files = [
-    {file = "icalendar-5.0.10-py3-none-any.whl", hash = "sha256:6e392c2f301b6b5f49433e14c905db3de444b12876f3345f1856a75e9cd8be6f"},
-    {file = "icalendar-5.0.10.tar.gz", hash = "sha256:34f0ca020b804758ddf316eb70d1d46f769bce64638d5a080cb65dd46cfee642"},
-]
-
-[package.dependencies]
-python-dateutil = "*"
-pytz = "*"
-
-[[package]]
 name = "ics"
 version = "0.7.2"
 description = "Python icalendar (rfc5545) parser"
@@ -383,18 +367,6 @@ files = [
 ]
 
 [[package]]
-name = "pytz"
-version = "2023.3.post1"
-description = "World timezone definitions, modern and historical"
-category = "main"
-optional = false
-python-versions = "*"
-files = [
-    {file = "pytz-2023.3.post1-py2.py3-none-any.whl", hash = "sha256:ce42d816b81b68506614c11e8937d3aa9e41007ceb50bfdcb0749b921bf646c7"},
-    {file = "pytz-2023.3.post1.tar.gz", hash = "sha256:7b4fddbeb94a1eba4b557da24f19fdf9db575192544270a9101d8509f9f43d7b"},
-]
-
-[[package]]
 name = "pyyaml"
 version = "6.0.1"
 description = "YAML parser and emitter for Python"
@@ -552,14 +524,14 @@ files = [
 
 [[package]]
 name = "urllib3"
-version = "2.0.5"
+version = "2.0.6"
 description = "HTTP library with thread-safe connection pooling, file post, and more."
 category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "urllib3-2.0.5-py3-none-any.whl", hash = "sha256:ef16afa8ba34a1f989db38e1dbbe0c302e4289a47856990d0682e374563ce35e"},
-    {file = "urllib3-2.0.5.tar.gz", hash = "sha256:13abf37382ea2ce6fb744d4dad67838eec857c9f4f57009891805e0b5e123594"},
+    {file = "urllib3-2.0.6-py3-none-any.whl", hash = "sha256:7a7c7003b000adf9e7ca2a377c9688bbc54ed41b985789ed576570342a375cd2"},
+    {file = "urllib3-2.0.6.tar.gz", hash = "sha256:b19e1a85d206b56d7df1d5e683df4a7725252a964e3993648dd0fb5a1c157564"},
 ]
 
 [package.extras]
@@ -604,5 +576,5 @@ dev = ["black (>=19.3b0)", "pytest (>=4.6.2)"]
 
 [metadata]
 lock-version = "2.0"
-python-versions = "^3.10"
-content-hash = "80a3f89357737ae81f3ba0636b28c9b658dcc7ab9f9047623a5b63eb4e16cca5"
+python-versions = ">=3.9, <3.12"
+content-hash = "e41217f0e0756775bf97e7e521a67e6381c8c5be83644b08ce7c71d4fcaf9f2a"
