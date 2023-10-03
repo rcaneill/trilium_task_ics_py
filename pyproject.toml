@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "trilium-task-ics-py"
+version = "0.1.0"
+description = ""
+authors = ["Romain <romain.caneill@yahoo.fr>"]
+readme = "README.md"
+packages = [{include = "trilium_task_ics_py"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+trilium-py = "^0.8.4"
+python-dotenv = "^1.0.0"
+ics = "^0.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
