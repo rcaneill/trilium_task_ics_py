@@ -1,4 +1,3 @@
-\65;6800;1c[tool.poetry]
 name = "trilium-task-ics-py"
 version = "0.1.0"
 description = ""
